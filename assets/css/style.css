@@ -346,18 +346,15 @@ body.dark-theme {
   right: 0;
 }
 
-/* Change background header */
 .scroll-header {
   background-color: var(--container-color);
   box-shadow: 0 1px 4px hsla(0, 4%, 15%, .10);
 }
 
-/* Active link */
 .active-link {
   color: var(--first-color);
 }
 
-/*=============== HOME ===============*/
 .home__container {
   position: relative;
   row-gap: 2.5rem;
@@ -406,7 +403,6 @@ body.dark-theme {
   box-shadow: 0 12px 24px hsla(0, 0%, 10%, .2);
 }
 
-/*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
   background-color: var(--button-color);
@@ -796,24 +792,6 @@ body.dark-theme {
   right: 0;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
-/* @media screen and (max-width: 320px) {
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
-  .home__img-bg {
-    width: 220px;
-  }
-  .home__title {
-    font-size: var(--h1-font-size);
-  }
-  .home__button {
-    font-size: var(--smaller-font-size);
-  }
-} */
-
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .home__img-bg {
@@ -895,9 +873,11 @@ body.dark-theme {
     grid-template-columns: repeat(4, max-content);
     justify-content: space-between;
   }
+
   .footer__title {
     font-size: var(--h3-font-size);
   }
+
 }
 
 /* For large devices */
@@ -967,6 +947,6 @@ body.dark-theme {
   }
 
   .footer__container {
-    padding: 0 1rem;
+    padding: 0 1rem 3rem 1rem;
   }
 }
