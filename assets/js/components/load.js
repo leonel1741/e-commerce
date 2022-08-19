@@ -1,8 +1,8 @@
 export function load () {
-  const load = document.getElementById('load');
+  const load = document.getElementById('load')
   if (load) {
     setTimeout(() => {
-      load.style.display = 'none';
-    }, 2000)
+      load.style.display = 'none'
+    }, 1500)
   }
 }
