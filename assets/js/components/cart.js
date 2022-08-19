@@ -99,7 +99,7 @@ export function renderCart () {
   } else {
     html += `
       <div class="cart__empty">
-        <img src="assets/img/empty-cart.png" alt="empty cart">
+        <img src="assets/images/empty-cart.png" alt="empty cart">
         <h2>Your cart is empty</h2>
         <p>You can add items to your cart by clicking on the "<i class="bx bx-plus"></i>" button on the product page.</p>
       </div>`
